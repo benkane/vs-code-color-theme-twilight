@@ -1,0 +1,26 @@
+{
+    "name": "twilight-color-theme",
+    "displayName": "Twilight Color Theme",
+    "description": "A fork of [gerane.theme-twilight](https://marketplace.visualstudio.com/items?itemName=gerane.Theme-Twilight). Methods have normal font weight instead of bold.",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.38.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "homepage": "https://github.com/benkane/vs-code-color-theme-twilight/blob/master/gerane.Theme-Twilight/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/benkane/vs-code-color-theme-twilight"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Twilight",
+                "uiTheme": "vs-dark",
+                "path": "./themes/twilight-color-theme.json"
+            }
+        ]
+    }
+}
